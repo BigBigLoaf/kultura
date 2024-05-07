@@ -53,18 +53,18 @@ html{
 .header{
     z-index: 10000;
     position: absolute;
-    width: 1900px;
+    width: 100%;
 }
 .logo-img{
     width: 100%;
     height: 100%;
 }
 .header-bar{
-    width: 1900px;
+    width: 100%;
 }
 .header-container{
     display: flex;
-    width: 1900px;
+    width: 100%;
 }
 .header-nav{
     display: flex;
@@ -83,8 +83,10 @@ html{
     border-left: none;
 }
 .header-other{
-    display: flex;
-    justify-content: space-evenly;
+    border-left: 0px;
+}
+.header-other-ul{
+    padding-left: 50px;
 }
 .header-other-ul > li{
     font-size: 24px;
