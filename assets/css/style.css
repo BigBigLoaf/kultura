@@ -574,3 +574,75 @@ footer{
     border-top: 2px var(--main-color) solid;
     border-left: 2px var(--main-color) solid;
 }
+
+/* media */
+
+.hero-text-media{
+    padding-top: 280px;
+}
+.media-container{
+    width: 1680px;
+}
+.media-info{
+    background-color: var(--second-text-color);
+}
+.media-info-peace-arrow{
+    background-image: url(../img/Arrow_1_white.svg);
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    background-size: cover;
+    margin-top: 3px;
+    transition: 1s;
+}
+.media-info-row{
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+}
+.media-info-row:first-child{
+    padding-top: 60px;
+}
+.media-info-row:last-child{
+    padding-bottom: 60px;
+}
+.media-info-peace{
+    display: flex;
+    font-size: 32px;
+    color: var(--main-text-color);  
+    margin: 0;
+    transition: 1s;
+}
+.media-info-peace-box{
+    padding: 30px 20px 30px 20px;
+    border: 2px var(--main-text-color) solid;
+    vertical-align: middle;
+    transition: 1s;
+    margin-right: 30px;
+}
+.media-info-peace-box:last-child{
+    margin-right: 0px;
+}
+.media-info-peace-box:hover{
+    border: 2px var(--main-color) solid;
+    cursor: pointer;
+    
+}
+.media-info-peace-box:hover p{
+    color: var(--main-color);
+    
+}
+.media-info-peace-box:hover a{
+    background-image: url(../img/Arrow1.svg);
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-repeat: no-repeat;
+    margin-top: 3px;
+    margin-left: 10px;
+    background-size: contain;
+    
+    transform: rotate(45deg);
+}
