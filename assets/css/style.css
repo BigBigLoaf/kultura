@@ -68,15 +68,15 @@ html{
 }
 .header-nav{
     display: flex;
+    width: 100%;
 }
 .header-blocks{
-    width: 530px;
     border: 2px solid var(--main-text-color) ;
     border-top: none;
+    width: 30%;
 }
 .header-blocks:last-child{
     border-right: none;
-    width: 542px;
 }
 .header-blocks:first-child{
     border-right: none;
@@ -203,8 +203,8 @@ html{
 .about-photo{
     width: 810px;
     height: 680px;
-    margin-left: 30px;
-    margin-top: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
 }
 .team{
     background-color: var(--second-text-color);
@@ -282,8 +282,8 @@ html{
 .info-photo{
     width: 810px;
     height: 630px;
-    margin-left: 30px;
-    margin-top: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
 }
 .partners-container{
     padding-bottom: 60px;
