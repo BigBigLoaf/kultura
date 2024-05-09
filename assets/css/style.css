@@ -44,7 +44,7 @@ html{
     scroll-behavior:smooth;
 }
 .container{
-    max-width: 1800px;
+    max-width: 1680px;
     margin: 0 auto;
 }
 .text-center{
@@ -246,11 +246,13 @@ html{
 }
 .info-text-block{
     width: 725px;
+    display: inline-block;
 }
 .info-text{
     font-size: 36px;
     color: var(--second-text-color);
     line-height: 45px;
+    
 }
 .here-link{
     color: var(--main-color);
@@ -531,7 +533,7 @@ footer{
     font-family: EvolventaRegular;
 }
 .projects-school-moreinfo{
-    width:1050px ;
+    width:50% ;
     margin-top: 30px;
 }
 .projects-school-text{
@@ -579,6 +581,7 @@ footer{
 
 .hero-text-media{
     padding-top: 280px;
+    font-size: 224px;
 }
 .media-container{
     width: 1680px;
@@ -645,4 +648,75 @@ footer{
     background-size: contain;
     
     transform: rotate(45deg);
+}
+
+/* thanks */
+
+.smi-info{
+    background-color: var(--second-text-color);
+}
+.smi-info-header-text{
+    font-size: 40px;
+    color: var(--main-color);
+    margin: 0;
+    padding: 60px 0px 40px 0px;
+}
+.smi-info-ul{
+   
+    padding-bottom: 60px;
+}
+.smi-info-ul-block ul li{
+    display: block;
+}
+.smi-info-ul-li-a{
+    font-size: 32px;
+    margin-bottom: 10px;
+    
+}
+.smi-info-ul-li-a img{
+    padding-right: 15px;
+    transition: 0.5s;
+    
+}
+.smi-info-ul-li-a:hover img{
+   transform: rotate(45deg);
+}
+.smi-info-ul-li{
+    padding-bottom: 10px;
+    
+}
+.projects-smi-moreinfo {
+    border-top: 2px var(--main-color) solid;
+    width: 720px;
+    color: var(--main-color);
+    text-align: end;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 10px;
+    width: 100%;
+    
+}
+.projects-smi-moreinfo a {
+   color:var(--main-color);
+   font-size:32px ;
+   transition: 0.5s;
+}
+.projects-smi-moreinfo a img {
+    transition: 0.5s;
+ }
+.projects-smi-moreinfo:hover a img {
+    transform: rotate(45deg);
+ }
+.smi-info-full{
+    padding-bottom: 60px;
+    padding-top: 30px;
+    width: 40%;
+}
+
+
+/* documents */
+
+.hero-text-documents{
+    font-size: 140px;
+    padding-top: 280px;
 }
