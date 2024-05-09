@@ -717,6 +717,55 @@ footer{
 /* documents */
 
 .hero-text-documents{
-    font-size: 140px;
+    font-size: 148px;
     padding-top: 280px;
+}
+.documents-main{
+    background-color: var(--second-text-color);
+}
+.documents-main-blocks{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.documents-info-full{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    width: 90%;
+}
+.documents-info-full:last-child{
+    padding-bottom: 60px;
+    padding-top: 20px;
+    width: 90%;
+}
+.documents-main-text-block-header{
+    margin: 0;
+    padding-bottom: 60px;
+    color: var(--main-color);
+    font-size: 40px;
+}
+.documents-main-text-block-main{
+    padding-bottom: 60px;
+    font-size: 32px;
+}
+.documents-main-text-block{
+    width: 50%;
+}
+.documents-main-img-blocks{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.documents-main-img{
+    border-top: 2px var(--main-color) solid;
+    border-left: 2px var(--main-color) solid;
+    padding: 10px 0px 0px 10px;
+}
+.documents-main-img1{
+    margin-bottom: 200px;
+}
+.documents-main-img3{
+    margin-top: 250px;
+    margin-bottom: 200px;
 }
