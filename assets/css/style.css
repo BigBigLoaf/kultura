@@ -632,12 +632,10 @@ footer{
     border: 2px var(--main-color) solid;
     cursor: pointer;
     
-}
-.media-info-peace-box:hover p{
-    color: var(--main-color);
     
 }
-.media-info-peace-box:hover a{
+
+.media-info-peace-box:hover .media-info-peace-arrow {
     background-image: url(../img/Arrow1.svg);
     width: 30px;
     height: 30px;
