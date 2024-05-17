@@ -24,6 +24,7 @@ html * {
 body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 *{
     box-sizing: border-box;
@@ -51,7 +52,7 @@ html{
     text-align: center;
 }
 .header{
-    z-index: 10000;
+    z-index: 99;
     position: absolute;
     width: 100%;
 }
@@ -121,7 +122,7 @@ html{
     height: 180px;
 }
 .hero{
-    background-image: url(../img/hero.png);
+    background-image: url(../img/hero.webp);
     background-repeat: no-repeat;
     object-fit: contain;
     background-size: cover;
@@ -533,8 +534,52 @@ footer{
     font-family: EvolventaRegular;
 }
 .projects-school-moreinfo{
-    width:50% ;
+    width:65% ;
     margin-top: 30px;
+    padding-top: 10px;
+}
+.projects-info-full{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    width: 40%;
+}
+.projects-info-full:last-child{
+    padding-bottom: 60px;
+    padding-top: 20px;
+    width: 40%;
+}
+.projects-moreinfo {
+    border-top: 2px var(--main-color) solid;
+    color: var(--main-color);
+    text-align: end;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 10px;
+    width: 40%;
+    padding-bottom: 10px;
+}
+.projects-moreinfo a {
+   color:var(--main-color);
+   font-size:40px ;
+   transition: 0.5s;
+}
+.projects-moreinfo a img {
+    transition: 0.5s;
+ }
+.projects-moreinfo:hover a img {
+    transform: rotate(45deg);
+ }
+.smi-moreinfo-full{
+    padding-bottom: 60px;
+    padding-top: 30px;
+    width: 40%;
+}
+.projects-more-info-school{
+    width: 65%;
+}
+.projects-more-info-video{
+    width: 50%;
+    margin-bottom: 10px;
 }
 .projects-school-text{
     width: 1100px;
@@ -575,8 +620,46 @@ footer{
     padding: 15px 0px 0px 15px;
     border-top: 2px var(--main-color) solid;
     border-left: 2px var(--main-color) solid;
+    cursor: pointer;
 }
 
+.thanks-img-big-block .popup-image{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    overflow: hidden;
+}
+.thanks-img-big-block .popup-image span{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: var(--main-text-color);
+    cursor:pointer ;
+    z-index: 100;
+}
+.thanks-img-big-block .popup-image img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid var(--main-text-color);
+    border-radius: 5px;
+    width: 750px;
+    object-fit: cover;
+}
+@media (max-width:768px){
+    .thanks-img-big-block .popup-image img{
+        width:95% ;
+        
+    }
+}
 /* media */
 
 .hero-text-media{
@@ -648,7 +731,7 @@ footer{
     transform: rotate(45deg);
 }
 
-/* thanks */
+/* smi */
 
 .smi-info{
     background-color: var(--second-text-color);
@@ -767,3 +850,6 @@ footer{
     margin-top: 250px;
     margin-bottom: 200px;
 }
+
+
+/* adaptive */
