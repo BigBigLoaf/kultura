@@ -93,6 +93,37 @@ html{
     font-size: 24px;
     margin-top: 20px;
 }
+/* adaptive  header*/
+@media (max-width:1679.99px){
+    .container{
+        max-width: 1400px;
+    }
+}
+@media (max-width:1399.99px){
+    .container{
+        max-width: 1200px;
+    }
+}
+@media (max-width:1199.99px){
+    .container{
+        max-width: 1000px;
+    }
+}
+@media (max-width:999.99px){
+    .container{
+        max-width: 700px;
+    }
+}
+@media (max-width:699.99px){
+    .container{
+        max-width: 360px;
+    }
+}
+@media (max-width:359.99px){
+    .container{
+        max-width: 320px;
+    }
+}
 .main-header-ul{
     margin-left: 50px;
     margin-top: 20px;
@@ -852,4 +883,3 @@ footer{
 }
 
 
-/* adaptive */
