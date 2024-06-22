@@ -8,3 +8,4 @@ document.querySelectorAll('.thanks-img-big-block img').forEach(image =>{
 document.querySelector('.popup-image span').onclick = () =>{
     document.querySelector('.popup-image').style.display = 'none';
 }
+
